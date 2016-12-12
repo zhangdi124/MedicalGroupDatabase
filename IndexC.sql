@@ -1,0 +1,12 @@
+create index Pat_LastName_ix on Patient (patientLastName);
+create index Sta_LastName_ix on Staff (staffLastName);
+create index Sch_stafID_ix on Schedule (staffID);
+create index App_patientID_ix on Appointment (patientID);
+create index Bil_patientID_ix on Billing (patientID);
+create index Pre_patientID_ix on Prescription (patientID);
+create index Pre_staffID_ix on Prescription (staffID);
+create index Dia_patientID_ix on Diagnosis (patientID);
+create index Dia_staffID_ix on Diagnosis (staffID);
+create index Pro_staffID_ix on Procedures(staffID);
+create index Ins_patientID_ix on InsurancePolicy (patientID);
+create index Lab_staffID_ix on LabTest (staffID);
